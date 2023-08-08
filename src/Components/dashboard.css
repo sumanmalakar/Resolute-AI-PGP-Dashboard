@@ -1,0 +1,107 @@
+.container {
+    /* width: 50%;
+    height: 40%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blueviolet; */
+    margin: 10px;
+}
+
+.item {
+    border: 1px solid red;
+    /* margin: 1px; */
+    border-radius: 10%;
+    line-height: 0.3;
+    text-align: center;
+    padding: 3px;
+    font-weight: 500;
+
+}
+
+.timer {
+    /* width: 10%; */
+    /* background-color: blueviolet; */
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+
+.timer1 {
+
+    /* margin: 1px; */
+    border-radius: 10%;
+    line-height: 0.3;
+    text-align: center;
+    padding: 5px;
+    font-weight: 500;
+    margin: 10px;
+    background-color: #4375e0;
+    /* background-color: #5486f1; */
+    color: white;
+    
+}
+
+.timer2 {
+
+    /* margin: 1px; */
+    border-radius: 10%;
+    line-height: 0.3;
+    text-align: center;
+    padding: 5px;
+    font-weight: 500;
+    margin: 10px;
+    background-color: #586d9b;
+    color: white;
+}
+
+.boxContent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: black; */
+    margin-top: 1rem;
+
+}
+
+.boxItem {
+    /* border: 1px solid red; */
+    margin: 3px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: rgb(233, 182, 134);
+    width: 100%;
+    height: 150px;
+    border-radius: 10%;
+
+
+}
+.boxItem p{
+    margin-top: 1.5rem;
+}
+.borderBottom {
+    /* margin: 10px; */
+    border-bottom: 2px solid white;
+    /* width: 80%; */
+
+}
+.buttonsection{
+    margin-top: 1rem;
+
+}
+
+.buttonElement{
+    
+margin: 0.3rem;
+text-transform: none;
+
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: yellow; */
+    margin-top: 0;
+    overflow-x: hidden;
+}

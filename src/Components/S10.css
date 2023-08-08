@@ -1,0 +1,81 @@
+
+.section1{
+    /* width: 15%; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2px;
+
+}
+.flex{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1 .p1{
+    border: 1px solid red;
+    /* padding:0px 35px 0px 35px; */
+    width: 170px;
+    font-size: 1rem;
+}
+.efficiency{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(81, 180, 35);
+    font-size: 0.6rem;
+}
+.efficiency span{
+    border: 1px solid rgb(253, 247, 247);
+    padding: 2px;
+    width: 80px;
+    color:white
+
+}
+.efficiencyformula{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(74, 105, 206); 
+    font-size: 1rem;
+
+}
+.efficiencyformula span{
+    border: 1px solid rgb(253, 247, 247);
+    padding: 3.5px;
+    width: 80px;
+    color:white
+
+}
+
+.left{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(51, 2, 2); */
+    /* background-color:blue; */
+   
+
+}
+.middle{
+    /* background-color: blue; */
+    /* padding: 10px; */
+    /* margin-left: 1px; */
+}
+.middle1{
+    margin-bottom: 5rem;
+}
+.right
+{
+    flex-wrap: wrap;
+    /* background-color: yellow; */
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;  
+}
