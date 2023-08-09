@@ -16,7 +16,7 @@ const B4Left = () => {
           <span>Hot End Effieciency</span>
         </div>
         <div className="efficiencyformula">
-          <span>Formula</span>
+          <span>Formula </span>
           <span>Formula</span>
           <span>Formula</span>
           <span>Formula</span>

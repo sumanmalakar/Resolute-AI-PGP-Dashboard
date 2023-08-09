@@ -6,6 +6,7 @@ import { MenuItem, Select, FormControl, InputLabel } from '@mui/material';
 import Clock from './Clock'
 import BoxItems from './BoxItems';
 import ButtonSection from './ButtonSection';
+import Stack from '@mui/material/Stack';
 import './dashboard.css';
 import {
   Grid,
@@ -90,6 +91,14 @@ const Dashboard = (props) => {
           Download Report
         </Button>
 
+        <Stack spacing={2} direction="row">
+    </Stack>
+    <div style={{display:'flex', justifyContent:"space-around", marginTop:"0.4rem"}}>
+
+      <Button variant="contained"  fullWidth style={{marginRight:"0.3rem",backgroundColor:"rgb(81, 180, 35)", textTransform:"none"}}>Add Bottle</Button>
+       <Button variant="contained"  fullWidth style={{backgroundColor:"rgb(81, 180, 35)", textTransform:"none"}}>Remove Bottle</Button>
+    </div>
+
       </div>
 
 <div style={{width:"12%"}}>
@@ -103,7 +112,7 @@ const Dashboard = (props) => {
 
   </div>
 
-  <div style={{width:"10%"}}>
+  <div style={{width:"12%"}}>
      <ButtonSection  />
 
   </div>

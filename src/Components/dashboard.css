@@ -22,7 +22,7 @@
 .timer {
     /* width: 10%; */
     /* background-color: blueviolet; */
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
     font-size: 1rem;
 }
 
@@ -59,7 +59,7 @@
     justify-content: space-around;
     align-items: center;
     /* background-color: black; */
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 
 }
 
@@ -86,7 +86,7 @@
 
 }
 .buttonsection{
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 
 }
 
@@ -94,6 +94,7 @@
     
 margin: 0.3rem;
 text-transform: none;
+/* font-size: 0.5rem; */
 
 }
 
